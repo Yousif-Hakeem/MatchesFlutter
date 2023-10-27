@@ -42,7 +42,7 @@ class _UpcomingNavBarState extends State<UpcomingNavBar> {
             child: Padding(
               padding: EdgeInsets.all(15.0),
               child: Text(
-                "no matches yet...",
+               AppLocalizations.of(context)!.nomatches.toString(),
                 style: TextStyle(
                   fontSize: 20,
                   color: Colors.deepOrange,
